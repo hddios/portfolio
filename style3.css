@@ -5,7 +5,7 @@
 }
 
 .container-home {
-	width: 800px;
+	width: 900px;
 }
 
 .nav {
@@ -120,14 +120,14 @@
 /*Projects*/
 
 .portfolio {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
 
 .folio-img {
-	height: auto;
-	width: 350px;
+	height: 300px;
+	width: auto;
 }
 
 .media-body {

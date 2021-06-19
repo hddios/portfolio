@@ -57,6 +57,8 @@
 	text-align: left;
 }
 
+
+
 /*Footer*/
 
 .mainfooter {
@@ -97,10 +99,19 @@
   opacity:0.75;
 }
 
+/*Homepage*/
 
 .mainheader {
 	height: 630px;
+	background-color: #262626;
+	border-radius: 50%;
 }
+
+.mainheader:hover {
+    transform: rotate(-8deg); 
+    background-color: #1e3057;
+}
+
 
 .mainheader .mainheader-heading {
   font-size: 2.75rem;
@@ -115,6 +126,26 @@
 
 .mainheader-menu {
 	padding-bottom: 70px;
+}
+
+.learnmore {
+	height: 60px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
 }
 
 /*Projects*/
@@ -133,3 +164,16 @@
 .media-body {
 	width: 500px;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row-folio::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
